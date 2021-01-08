@@ -1,0 +1,66 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* calculator container */
+.calc-container {
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: lightpink;
+    border-radius: 30px;
+}
+
+/* input container */
+
+.input-container {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+input {
+    height: 130px;
+}
+
+/* button container */
+
+.button-container {
+    display: block;
+    height: 200px;
+    width: fit-content;
+    margin: auto;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(44, 44, 189);
+    color: whitesmoke;
+}
+
+/* result container */
+
+.bottom {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.result-box {
+    font-size: 35px;
+    font-weight: bold;
+    
+}
